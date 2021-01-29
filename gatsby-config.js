@@ -6,7 +6,7 @@ module.exports = {
     url: 'https://www.benpartch.org/',
     author: 'Ben Partch',
     image: 'https://gatsby-starter-amsterdam.netlify.com/og-image.jpg',
-    intro: 'Ben is a freelance developer in Texas!!',
+    intro: 'Ben is a freelance developer in Texas!!😎',
     menuLinks: [
       {
         name: 'Ben Partch',
