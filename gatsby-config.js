@@ -16,11 +16,15 @@ module.exports = {
         name: 'About',
         slug: '/about/',
       },
+      {
+        name: 'Contact',
+        slug: '/contact/',
+      },
     ],
     footerLinks: [
       {
         name: 'Github',
-        url: 'https://github.com/bpartch/benpartch.org',
+        url: 'https://github.com/bpartch/',
       },
     ],
   },
