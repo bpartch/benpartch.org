@@ -17,6 +17,10 @@ module.exports = {
         slug: '/about/',
       },
       {
+        name: 'Blog',
+        slug: '/blog/',
+      },
+      {
         name: 'Contact',
         slug: '/contact/',
       },
@@ -31,7 +35,10 @@ module.exports = {
   plugins: [
     {
       resolve: 'gatsby-theme-amsterdam',
-      options: {},
+      options: {
+        grid: 'list',
+        basePath: '/blog',
+      },
     },
     {
       resolve: `gatsby-plugin-manifest`,
