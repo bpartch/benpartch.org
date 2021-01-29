@@ -45,44 +45,12 @@ const Content = styled.div`
 const AboutPage = ({ data }) => {
   return (
     <Container>
-      <SEO title="Example Page" description="This is just an example page" />
+      <SEO title="About Page" description="This is the about page" />
       <Title>About</Title>
       <Content>
-        <p>
-          This is just the about page{' '}
-          <a
-            href="https://www.gatsbyjs.org/docs/recipes/#creating-pages-automatically"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            created automatically
-          </a>{' '}
-          by placing a <code>React</code> component in <code>src/pages/</code>.
-          In the source code you will see an example of how to{' '}
-          <a
-            href="https://www.gatsbyjs.org/blog/2019-04-29-component-shadowing/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            shadow
-          </a>{' '}
-          components available in the theme such as the <code>Container</code>,{' '}
-          and <code>SEO</code> components. Additionally you will see how theme
-          values can be used with <code>Emotion</code> via the
-          <code>styled-components</code> syntax.
-        </p>
-        <p>
-          For more information about the Gatsby theme powering this website
-          visit the{' '}
-          <a
-            href="https://github.com/ryanwiemer/gatsby-theme-amsterdam"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Gatsby Theme Amsterdam GitHub Repo
-          </a>
-          .
-        </p>
+       <p>Hi. I'm Ben, nice to meet you. This is maybe going to be my website. Let's give it a few months and see what I can make it do.</p>
+       <h2>What's going on with your site?</h2>
+       <p>I'm getting used to blogging; and I have nothing to blog about right now. So I'm just collecting stuff "notes" to share with my GF.</p>
       </Content>
     </Container>
   )
