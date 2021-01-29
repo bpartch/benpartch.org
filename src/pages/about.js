@@ -13,6 +13,17 @@ const Title = styled.h1`
     font-size: 2.5rem;
   }
 `
+const Title2 = styled.h2`
+  font-weight: ${props => props.theme.fonts.boldWeight};
+  line-height: 1.25;
+  max-width: ${props => props.theme.sizes.maxWidthCentered};
+  margin: 0 auto 1rem;
+  font-size: 1.5rem;
+  @media screen and (min-width: ${props => props.theme.responsive.small}) {
+    font-size: 1.3rem;
+    color: tomato;
+  }
+`
 
 const Content = styled.div`
   margin: 0 auto;
@@ -49,7 +60,7 @@ const AboutPage = ({ data }) => {
       <Title>About</Title>
       <Content>
        <p>Hi. I'm Ben, nice to meet you. This is maybe going to be my website. Let's give it a few months and see what I can make it do.</p>
-       <h2>What's going on with your site?</h2>
+       <Title2>What's going on with your site?</Title2>
        <p>I'm getting used to blogging; and I have nothing to blog about right now. So I'm just collecting stuff "notes" to share with my GF.</p>
       </Content>
     </Container>
