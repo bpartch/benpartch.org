@@ -2,11 +2,11 @@ module.exports = {
   siteMetadata: {
     title: 'Ben Partch',
     description:
-      'Ben is a freelance developer in Texas!!',
+      'Ben™️ is a freelance developer in Texas!!',
     url: 'https://www.benpartch.org/',
     author: 'Ben Partch',
     image: 'https://gatsby-starter-amsterdam.netlify.com/og-image.jpg',
-    intro: 'Ben is a freelance developer in Texas!!😎',
+    intro: 'Ben™️ is a freelance developer in Texas!!😎',
     menuLinks: [
       {
         name: 'Ben Partch',
